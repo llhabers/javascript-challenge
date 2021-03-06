@@ -1,6 +1,10 @@
 // from data.js
 var tableData = data;
 
+// Get a reference to the table body
+var tbody = d3.select("tbody");
+
+
 // YOUR CODE HERE
 //1. Populate the html file with the data in the form of table(refer activity Class 3 - 03)
 //2. Pulling in the data from the form field(refer activity Class 3 - 08)
